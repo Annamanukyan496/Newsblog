@@ -60,4 +60,11 @@ html {
 body {
   margin: 0;
 }
+.restaurant-card {
 
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 15px;
+}
+ 
+ 
