@@ -73,12 +73,29 @@ body {
   justify-content: right;
 }
 
-button {
+.button {
+  display: block;
   background-color: rgb(6, 155, 229);
   border: none;
-  margin: 12px;
-  margin-right: 25px;
   cursor: pointer;
   border-radius: 4px;
   padding: 5px;
+}
+
+.send-email-button {
+  display: flex;
+  justify-content: right;
+  margin-right: 230px;
+}
+
+.button-only-one {
+  margin: 0;
+}
+
+.button-restaurant-card {
+  margin: 15px;
+  margin-right: 25px;
+}
+.email-button-link {
+  color: black;
 }
