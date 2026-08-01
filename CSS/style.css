@@ -13,8 +13,8 @@ i {
 }
 
 .restorani-anun {
-  color: black;
-  margin-left: 8px;
+color: black;
+margin: left 8px;
 }
 
 h3 {
@@ -98,4 +98,58 @@ body {
 }
 .email-button-link {
   color: black;
+}
+
+.about-event {
+background-color: rgba(13, 69, 77, 0.283); ;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.restaurant-border {
+  margin-left:170px;
+  margin-top:50px;
+  margin-right: 900px;
+  border: 2px solid black;
+  border-radius: 15px;
+   display: flex;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+.img-src {
+
+  margin-right: 30px;
+  margin-left:170px;
+  margin-top:50px;
+  margin-right: 900px;
+  border: 2px solid black;
+  border-radius: 15px;
+   display: flex;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+.loona-event {
+ margin-right: 30px;
+  margin-left:170px;
+  margin-top:50px;
+  margin-right: 900px;
+  border: 2px solid black;
+  border-radius: 15px;
+   display: flex;
+  justify-content:end;
+  margin-left: 8px;
+  
+
+}
+.khamancha {
+  margin-right: 30px;
+  margin-left:170px;
+  margin-top:50px;
+  margin-right: 900px;
+  border: 2px solid black;
+  border-radius: 15px;
+   display: flex;
+  justify-content:start;
+  margin-left: 8px;
 }
