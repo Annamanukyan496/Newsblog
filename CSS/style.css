@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
   margin-right: 10px;
   padding: 15px;
@@ -37,6 +41,7 @@ p {
   background-color: rgba(13, 69, 77, 0.283);
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .menu-item {
@@ -56,9 +61,6 @@ html {
 .about-body {
   margin-left: 230px;
   margin-right: 230px;
-}
-body {
-  margin: 0;
 }
 .restaurant-card {
   border: 2px solid black;
@@ -112,18 +114,51 @@ body {
   padding: 20px;
   border: 2px solid black;
   border-radius: 15px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .event-container {
   display: flex;
   flex-wrap: wrap;
 }
-.footer {
 
+header {
+  margin: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.footer {
   text-align: center;
   padding: 5px;
-  background-color: rgb(146,177,201);
-  color:white;
-  
+  background-color: rgb(146, 177, 201);
+  color: white;
+
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.footer-item {
+  color: black;
+  margin: 5px;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+main {
+  padding: 20px;
+
+  flex-grow: 1;
 }
