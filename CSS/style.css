@@ -119,3 +119,11 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.footer {
+
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(146,177,201);
+  color:white;
+  
+}
