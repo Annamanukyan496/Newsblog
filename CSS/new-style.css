@@ -1,0 +1,32 @@
+form {
+ background-color:rgb(126, 135, 132);
+ text-align:center;
+ padding: 9px;
+
+}
+input {
+   width: 300px; 
+   height: 34px;
+   
+  
+}
+h1 {
+    text-align: center;
+}
+fname {
+    text-align: left;
+}
+form-button {
+    text-align: center;
+    color: black;
+}
+
+.restaurant-button {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: end;
+  color: black;
+padding: 15%;
+
+}
