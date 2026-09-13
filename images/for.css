@@ -1,0 +1,53 @@
+.nkar-css img {
+    width: 110px;
+    height:110px;
+    margin-left:48px;
+    display: flex;
+    justify-content: center;
+}
+.text-center {
+  margin-left: 200px;
+  font-size:45px;
+   margin-top: 60px;
+ 
+}
+pre {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   
+}
+.inst-nkar img {
+    width:720px;
+    height:600px;
+    margin-left: 160px;
+  
+}
+.chaps-pre {
+    margin-left:290px;
+    color:rgba(37, 34, 34, 0.412);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+  margin-right: 15px;
+}
+.hr-gc {
+ 
+ width: 0;
+ height: 920px;
+ display: flex;
+justify-content:right;
+ margin-left:1050px;
+ transform: translateY(1265px);
+}
+.big-div{
+   display: flex;
+  justify-content:end;
+  display: flex;
+  align-items:flex-end;
+  margin-bottom: 95px;
+margin-top: 50px;
+border-radius: 50px;
+}
+input{
+    border-radius: 20px;
+    font-size: 30px;
+}
