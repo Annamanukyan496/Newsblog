@@ -1,0 +1,108 @@
+label {
+  color: blue;
+}
+
+body {
+  background-image: url("https://ir-3.ozone.ru/s3/ozonid/ozonid-background.svg");
+  background-size: 100vh 100vh;
+  width: 100%;
+  height: 100vh;
+}
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height:93%;
+ 
+}
+   
+.form-body {
+  background-color:aliceblue;
+  text-align:center;
+  max-width: 500px;
+  width: 415px;
+  
+}
+.form-group {
+  display: flex; /* Activates flexbox layout */
+  align-items: center; /* Vertically centers label and input */
+  justify-content: center;
+  gap: 15px; /* Adds uniform space between label and input */
+  margin-bottom: 15px; /* Adds space below each row */
+  height:50px;
+}
+
+.form-group input {
+    font-size: 25px;
+    height: 50px;
+    border-radius:7px;
+}
+
+.id-color {
+    color: black;
+}
+img src {
+    margin-left: 15px;
+}
+h2 {
+    font-size:30px;
+}
+h1 {
+    font-size: 19px;
+   font-weight: 100;
+}
+.ozon-card {
+width: 350px;
+border-radius: 20px;
+background-color: rgb(42, 42, 255);
+ font-size: 25px;
+ height: 61px;
+}
+a {
+    color: white;
+}
+hr {
+   width:50px;
+   color: rgb(207, 203, 203);
+}
+.black-card {
+   width: 350px;
+background-color:black;
+ font-size: 20px;
+ height: 61px; 
+}
+.white-card {
+   width: 350px;
+background-color:rgb(246, 246, 246);
+ font-size:20px ;
+ height: 61px;  
+ border-radius: 20px;
+
+}
+
+.button {
+    margin-bottom: 10px;
+}
+.last-card {
+   width: 350px;
+background-color:rgb(246, 246, 246);
+ font-size:20px ;
+ height: 61px;  
+ border-radius: 20px;
+color: black;  
+}
+p {
+    color: rgb(40, 40, 226);
+}
+.ozon-id{
+    text-align: left;
+}
+.for-end {
+    text-align:right;
+    margin:5px;
+}
